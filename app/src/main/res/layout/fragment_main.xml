@@ -1,22 +1,32 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+              android:orientation="vertical"
                 tools:context="com.github.andrejnazarov.spacex.view.MainFragment">
 
     <ImageView
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
         android:id="@+id/image_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         tools:src="@android:drawable/btn_default"/>
 
-    <TextView
-        android:id="@+id/text_view"
+    <ScrollView
+        android:layout_weight="1"
+        android:id="@+id/scroll_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/image_view"
-        android:layout_centerHorizontal="true"
-        tools:text="some text here"/>
+        android:layout_height="wrap_content">
 
-</RelativeLayout>
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="some text here"/>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -16,7 +16,7 @@ import java.util.concurrent.Future;
  * @author Nazarov on 21.01.18.
  */
 
-final class ExecutionThread extends Thread {
+final class WebExecutionThread extends Thread {
 
     private static final String SPACE_X_URL = "https://api.spacexdata.com/v2/launches?launch_year=2017";
     private Future mJsonFuture;

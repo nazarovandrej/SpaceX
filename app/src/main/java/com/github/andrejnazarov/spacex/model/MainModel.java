@@ -33,7 +33,7 @@ public class MainModel {
     public void getData() {
         mLaunchItems = new ArrayList<>();
         if (hasConnection()) {
-            ExecutionThread thread = new ExecutionThread();
+            WebExecutionThread thread = new WebExecutionThread();
             thread.start();
             setData(thread.getJson());
         } else {
@@ -56,6 +56,6 @@ public class MainModel {
     }
 
     private boolean hasConnection() {
-        return true; // TODO: 21.01.18 implement later
+        return false; // TODO: 21.01.18 implement later
     }
 }
