@@ -1,0 +1,1203 @@
+[
+  {
+    "flight_number": 35,
+    "launch_year": "2017",
+    "launch_date_unix": 1484416440,
+    "launch_date_utc": "2017-01-14T17:54:00Z",
+    "launch_date_local": "2017-01-14T10:54:00-07:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1029",
+            "reused": false,
+            "land_success": true,
+            "landing_type": "ASDS",
+            "landing_vehicle": "JRTI"
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "Iridium NEXT 1",
+            "reused": false,
+            "customers": [
+              "Iridium Communications"
+            ],
+            "payload_type": "Satellite",
+            "payload_mass_kg": 9600,
+            "payload_mass_lbs": 21200,
+            "orbit": "LEO"
+          }
+        ]
+      }
+    },
+    "reuse": {
+      "core": false,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": false
+    },
+    "telemetry": {
+      "flight_club": "https://www.flightclub.io/results/?code=IRD1"
+    },
+    "launch_site": {
+      "site_id": "vafb_slc_4e",
+      "site_name": "VAFB SLC 4E",
+      "site_name_long": "Vandenberg Air Force Base Space Launch Complex 4E"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "http://i.imgur.com/f2OA2As.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/5dii6z",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/5nsaqm",
+      "reddit_recovery": "https://www.reddit.com/r/spacex/comments/5oe9kk",
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/5nsico",
+      "presskit": "https://drive.google.com/open?id=0BwA3a65ef1OvZC1aU3FuMlQzalE",
+      "article_link": "https://en.wikipedia.org/wiki/Iridium_satellite_constellation#Next-generation_constellation",
+      "video_link": "https://www.youtube.com/watch?v=7WimRhydggo"
+    },
+    "details": "Return-to-flight mission after the loss of Amos-6 in September 2016. Iridium NEXT will replace the original Iridium constellation, launched in the late 1990s. Each Falcon mission will carry 10 satellites, with a goal to complete deployment of the 66 plus 9 spare satellite constellation by mid 2018. The first two Iridium qualification units were supposed to ride a Dnepr rocket in April 2016 but were delayed, so Iridium decided to qualify the first batch of 10 satellites instead."
+  },
+  {
+    "flight_number": 36,
+    "launch_year": "2017",
+    "launch_date_unix": 1487515140,
+    "launch_date_utc": "2017-02-19T14:39:00Z",
+    "launch_date_local": "2017-02-19T10:39:00-04:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1031",
+            "reused": false,
+            "land_success": true,
+            "landing_type": "RTLS",
+            "landing_vehicle": "LZ-1"
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "SpaceX CRS-10",
+            "cap_serial": "C112",
+            "reused": false,
+            "customers": [
+              "NASA (CRS)"
+            ],
+            "payload_type": "Dragon 1.1",
+            "payload_mass_kg": 2490,
+            "payload_mass_lbs": 5490,
+            "orbit": "ISS",
+            "mass_returned_kg": 1652,
+            "mass_returned_lbs": 3642,
+            "flight_time_sec": 2419620,
+            "cargo_manifest": "https://www.nasa.gov/sites/default/files/atoms/files/spacex_crs-10_mission_overview.pdf"
+          }
+        ]
+      }
+    },
+    "reuse": {
+      "core": false,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": false
+    },
+    "telemetry": {
+      "flight_club": "https://www.flightclub.io/results/?code=CR10"
+    },
+    "launch_site": {
+      "site_id": "ksc_lc_39a",
+      "site_name": "KSC LC 39A",
+      "site_name_long": "Kennedy Space Center Historic Launch Complex 39A"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "http://i.imgur.com/4zo17M6.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/5n2eqx",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/5uw4bh",
+      "reddit_recovery": "https://www.reddit.com/r/spacex/comments/609aq4",
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/5uoy8o",
+      "presskit": "http://www.spacex.com/sites/spacex/files/crs10presskitfinal.pdf",
+      "article_link": "https://en.wikipedia.org/wiki/SpaceX_CRS-10",
+      "video_link": "https://www.youtube.com/watch?v=giNhaEzv_PI"
+    },
+    "details": "First Falcon 9 flight from the historic LC-39A launchpad at Kennedy Space Center, carrying supplies and materials to support dozens of science and research investigations scheduled during ISS Expeditions 50 and 51. The first stage returned to launch site and landed at LZ-1."
+  },
+  {
+    "flight_number": 37,
+    "launch_year": "2017",
+    "launch_date_unix": 1489644000,
+    "launch_date_utc": "2017-03-16T06:00:00Z",
+    "launch_date_local": "2017-03-16T02:00:00-04:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1030",
+            "reused": false,
+            "land_success": true,
+            "landing_type": null,
+            "landing_vehicle": null
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "EchoStar 23",
+            "reused": false,
+            "customers": [
+              "EchoStar"
+            ],
+            "payload_type": "Satellite",
+            "payload_mass_kg": 5600,
+            "payload_mass_lbs": 12399,
+            "orbit": "GTO"
+          }
+        ]
+      }
+    },
+    "reuse": {
+      "core": false,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": false
+    },
+    "telemetry": {
+      "flight_club": "https://www.flightclub.io/results/?code=ES23"
+    },
+    "launch_site": {
+      "site_id": "ksc_lc_39a",
+      "site_name": "KSC LC 39A",
+      "site_name_long": "Kennedy Space Center Historic Launch Complex 39A"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "http://i.imgur.com/6Ykkq2B.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/5n2e10/echostar_23_launch_campaign_thread/",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/5z8dkm/welcome_to_the_rspacex_echostar23_official_launch/",
+      "reddit_recovery": null,
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/5z8if6/rspacex_echostar_23_media_thread_videos_images/",
+      "presskit": "http://www.spacex.com/sites/spacex/files/echostarxxiiifinal.pdf",
+      "article_link": "http://spacenews.com/spacex-launches-echostar-23/",
+      "video_link": "https://www.youtube.com/watch?v=lZmqbL-hz7U"
+    },
+    "details": "Communications satellite for EchoStar Corp. EchoStar XXIII, based on a spare platform from the cancelled CMBStar 1 satellite program, will provide direct-to-home television broadcast services over Brazil. There was no attempt at a first-stage recovery so this rocket did not have landing legs or grid fins."
+  },
+  {
+    "flight_number": 38,
+    "launch_year": "2017",
+    "launch_date_unix": 1490912820,
+    "launch_date_utc": "2017-03-30T22:27:00Z",
+    "launch_date_local": "2017-03-30T18:27:00-04:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1021",
+            "reused": true,
+            "land_success": true,
+            "landing_type": "ASDS",
+            "landing_vehicle": "OCISLY"
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "SES-10",
+            "reused": false,
+            "customers": [
+              "SES"
+            ],
+            "payload_type": "Satellite",
+            "payload_mass_kg": 5300,
+            "payload_mass_lbs": 11700,
+            "orbit": "GTO"
+          }
+        ]
+      }
+    },
+    "reuse": {
+      "core": true,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": false
+    },
+    "telemetry": {
+      "flight_club": "https://www.flightclub.io/results/?code=SS10"
+    },
+    "launch_site": {
+      "site_id": "ksc_lc_39a",
+      "site_name": "KSC LC 39A",
+      "site_name_long": "Kennedy Space Center Historic Launch Complex 39A"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "http://i.imgur.com/99fVv0S.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/5sjrzj/ses10_launch_campaign_thread/",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/62aqi7/rspacex_ses10_official_launch_discussion_updates/",
+      "reddit_recovery": "https://www.reddit.com/r/spacex/comments/634gmr/b1021ses10_recovery_thread/",
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/62aqad/rspacex_ses10_media_thread_videos_images_gifs/",
+      "presskit": "http://www.spacex.com/sites/spacex/files/finalses10presskit.pdf",
+      "article_link": "https://en.wikipedia.org/wiki/SES-10",
+      "video_link": "https://www.youtube.com/watch?v=xsZSXav4wI8"
+    },
+    "details": "First payload to fly on a reused first stage, B1021, previously launched with CRS-8, which also landed a second time. In what is also a first, the payload fairing remained intact after a successful splashdown achieved with thrusters and a steerable parachute."
+  },
+  {
+    "flight_number": 39,
+    "launch_year": "2017",
+    "launch_date_unix": 1493637300,
+    "launch_date_utc": "2017-05-01T11:15:00Z",
+    "launch_date_local": "2017-05-01T07:15:00-04:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1032",
+            "reused": false,
+            "land_success": true,
+            "landing_type": "RTLS",
+            "landing_vehicle": "LZ-1"
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "NROL-76",
+            "reused": false,
+            "customers": [
+              "NRO"
+            ],
+            "payload_type": "Satellite",
+            "payload_mass_kg": null,
+            "payload_mass_lbs": null,
+            "orbit": "LEO"
+          }
+        ]
+      }
+    },
+    "reuse": {
+      "core": false,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": false
+    },
+    "telemetry": {
+      "flight_club": null
+    },
+    "launch_site": {
+      "site_id": "ksc_lc_39a",
+      "site_name": "KSC LC 39A",
+      "site_name_long": "Kennedy Space Center Historic Launch Complex 39A"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "http://i.imgur.com/BzYVR9F.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/601ykx",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/68bn8y/",
+      "reddit_recovery": null,
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/68bpii",
+      "presskit": "http://www.spacex.com/sites/spacex/files/nrol76presskit.pdf",
+      "article_link": "https://techcrunch.com/2017/05/01/spacex-successfully-launches-nrol-76-u-s-military-satellite/",
+      "video_link": "https://www.youtube.com/watch?v=EzQpkQ1etdA"
+    },
+    "details": "First launch under SpaceX's certification for national security space missions, which allows SpaceX to contract launch services for classified payloads. Second-stage speed and altitude telemetry were omitted from the launch webcast, which displayed first-stage telemetry instead, with continuous tracking of the booster from liftoff to landing for the first time."
+  },
+  {
+    "flight_number": 40,
+    "launch_year": "2017",
+    "launch_date_unix": 1494890460,
+    "launch_date_utc": "2017-05-15T23:21:00Z",
+    "launch_date_local": "2017-05-15T19:21:00-04:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1034",
+            "reused": false,
+            "land_success": false,
+            "landing_type": null,
+            "landing_vehicle": null
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "Inmarsat-5 F4",
+            "reused": false,
+            "customers": [
+              "Inmarsat"
+            ],
+            "payload_type": "Satellite",
+            "payload_mass_kg": 6070,
+            "payload_mass_lbs": 13380,
+            "orbit": "GTO"
+          }
+        ]
+      }
+    },
+    "reuse": {
+      "core": false,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": false
+    },
+    "telemetry": {
+      "flight_club": "https://www.flightclub.io/results/?code=I5F4"
+    },
+    "launch_site": {
+      "site_id": "ksc_lc_39a",
+      "site_name": "KSC LC 39A",
+      "site_name_long": "Kennedy Space Center Historic Launch Complex 39A"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "http://i.imgur.com/nAzU032.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/64kguj/",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/6b88hz/",
+      "reddit_recovery": null,
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/6bcf8j/",
+      "presskit": "http://www.spacex.com/sites/spacex/files/inmarsat5f4presskit.pdf",
+      "article_link": "https://www.space.com/36852-spacex-launches-inmarsat-5-f4-satellite.html",
+      "video_link": "https://www.youtube.com/watch?v=ynMYE64IEKs&t=1271s"
+    },
+    "details": "At 6,070 kg this was the heaviest payload launched to GTO by a Falcon 9 rocket. The launch was originally scheduled for the Falcon Heavy, but performance improvements allowed the mission to be carried out by an expendable Falcon 9 instead."
+  },
+  {
+    "flight_number": 41,
+    "launch_year": "2017",
+    "launch_date_unix": 1496524020,
+    "launch_date_utc": "2017-06-03T21:07:00Z",
+    "launch_date_local": "2017-06-03T17:07:00-04:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1035",
+            "reused": false,
+            "land_success": true,
+            "landing_type": "RTLS",
+            "landing_vehicle": "LZ-1"
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "SpaceX CRS-11",
+            "cap_serial": "C106",
+            "reused": false,
+            "customers": [
+              "NASA (CRS)"
+            ],
+            "payload_type": "Dragon 1.1",
+            "payload_mass_kg": 2708,
+            "payload_mass_lbs": 5970,
+            "orbit": "ISS",
+            "mass_returned_kg": 1900,
+            "mass_returned_lbs": 4100,
+            "flight_time_sec": 2559840,
+            "cargo_manifest": "https://www.nasa.gov/sites/default/files/atoms/files/spacex_crs-11_mission_overview.pdf"
+          }
+        ]
+      }
+    },
+    "reuse": {
+      "core": false,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": true
+    },
+    "telemetry": {
+      "flight_club": "https://www.flightclub.io/results/?code=CR11"
+    },
+    "launch_site": {
+      "site_id": "ksc_lc_39a",
+      "site_name": "KSC LC 39A",
+      "site_name_long": "Kennedy Space Center Historic Launch Complex 39A"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "http://spacexpatchlist.space/images/thumbs/crs_11.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/68ul58/",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/6ektkt/",
+      "reddit_recovery": null,
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/6emlzr/",
+      "presskit": "http://www.spacex.com/sites/spacex/files/crs11presskit.pdf",
+      "article_link": "https://en.wikipedia.org/wiki/SpaceX_CRS-11",
+      "video_link": "https://www.youtube.com/watch?v=JuZBOUMsYws"
+    },
+    "details": "This mission delivered the Neutron Star Interior Composition Explorer (NICER) to the ISS, along with the MUSES Earth imaging platform and ROSA solar array. For the first time, this mission launched a refurbished Dragon capsule, serial number C106 which first flew in September 2014 on the CRS-4 mission. Originally scheduled to launch on June 1, but was scrubbed due to inclement weather."
+  },
+  {
+    "flight_number": 42,
+    "launch_year": "2017",
+    "launch_date_unix": 1498245000,
+    "launch_date_utc": "2017-06-23T19:10:00Z",
+    "launch_date_local": "2017-06-23T15:10:00-04:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1029",
+            "reused": true,
+            "land_success": true,
+            "landing_type": "ASDS",
+            "landing_vehicle": "OCISLY"
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "BulgariaSat-1",
+            "reused": false,
+            "customers": [
+              "Bulgaria Sat"
+            ],
+            "payload_type": "Satellite",
+            "payload_mass_kg": 3669,
+            "payload_mass_lbs": 8089,
+            "orbit": "GTO"
+          }
+        ]
+      }
+    },
+    "reuse": {
+      "core": true,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": false
+    },
+    "telemetry": {
+      "flight_club": "https://www.flightclub.io/results/?code=BGS1"
+    },
+    "launch_site": {
+      "site_id": "ksc_lc_39a",
+      "site_name": "KSC LC 39A",
+      "site_name_long": "Kennedy Space Center Historic Launch Complex 39A"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "http://i.imgur.com/VAvulaO.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/69hhkm/bulgariasat1_launch_campaign_thread/",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/6isph2/welcome_to_the_rspacex_bulgariasat1_official/",
+      "reddit_recovery": "https://www.reddit.com/r/spacex/comments/6k3kop/b10292_bulgariasat_1_recovery_thread/",
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/6iuj1z/rspacex_bulgariasat1_media_thread_videos_images/",
+      "presskit": "http://www.spacex.com/sites/spacex/files/bulgariasat1presskit.pdf",
+      "article_link": "https://en.wikipedia.org/wiki/BulgariaSat-1",
+      "video_link": "https://www.youtube.com/watch?v=Y8mLi-rRTh8"
+    },
+    "details": "Second time a booster will be reused: Second flight of B1029 after the Iridium mission of January 2017. The satellite will be the first commercial Bulgarian-owned communications satellite and it will provide television broadcasts and other communications services over southeast Europe."
+  },
+  {
+    "flight_number": 43,
+    "launch_year": "2017",
+    "launch_date_unix": 1498397100,
+    "launch_date_utc": "2017-06-25T13:25:00Z",
+    "launch_date_local": "2017-06-25T06:25:00-07:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1036",
+            "reused": false,
+            "land_success": true,
+            "landing_type": "ASDS",
+            "landing_vehicle": "JRTI"
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "Iridium NEXT 2",
+            "reused": false,
+            "customers": [
+              "Iridium Communications"
+            ],
+            "payload_type": "Satellite",
+            "payload_mass_kg": 9600,
+            "payload_mass_lbs": 21164,
+            "orbit": "LEO"
+          }
+        ]
+      }
+    },
+    "reuse": {
+      "core": false,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": false
+    },
+    "telemetry": {
+      "flight_club": "https://www.flightclub.io/results/?code=IRD2"
+    },
+    "launch_site": {
+      "site_id": "vafb_slc_4e",
+      "site_name": "VAFB SLC 4E",
+      "site_name_long": "Vandenberg Air Force Base Space Launch Complex 4E"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "http://i.imgur.com/WoNl9ZJ.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/6bp4fj/",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/6j67ti/",
+      "reddit_recovery": "https://www.reddit.com/r/spacex/comments/6k16ho/",
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/6j7va6/",
+      "presskit": "http://www.spacex.com/sites/spacex/files/iridium2presskit.pdf",
+      "article_link": "https://www.space.com/37304-liftoff-spacex-second-launch-three-days.html",
+      "video_link": "https://www.youtube.com/watch?v=7tIwZg8F9b8"
+    },
+    "details": "First flight with titanium grid fins to improve control authority and better cope with heat during re-entry."
+  },
+  {
+    "flight_number": 44,
+    "launch_year": "2017",
+    "launch_date_unix": 1499297700,
+    "launch_date_utc": "2017-07-05T23:35:00Z",
+    "launch_date_local": "2017-07-05T19:35:00-04:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1037",
+            "reused": false,
+            "land_success": null,
+            "landing_type": null,
+            "landing_vehicle": null
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "Intelsat 35e",
+            "reused": false,
+            "customers": [
+              "Intelsat"
+            ],
+            "payload_type": "Satellite",
+            "payload_mass_kg": 6761,
+            "payload_mass_lbs": 14905.45,
+            "orbit": "GTO"
+          }
+        ]
+      }
+    },
+    "reuse": {
+      "core": false,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": false
+    },
+    "telemetry": {
+      "flight_club": null
+    },
+    "launch_site": {
+      "site_id": "ksc_lc_39a",
+      "site_name": "KSC LC 39A",
+      "site_name_long": "Kennedy Space Center Historic Launch Complex 39A"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "http://i.imgur.com/8URp6ea.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/6fw4yy/",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/6kt2re/",
+      "reddit_recovery": null,
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/6kt3fe/",
+      "presskit": "http://www.spacex.com/sites/spacex/files/intelsat35epresskit.pdf",
+      "article_link": "https://en.wikipedia.org/wiki/Intelsat_35e",
+      "video_link": "https://www.youtube.com/watch?v=MIHVPCj25Z0"
+    },
+    "details": "Due to the constraints of sending a heavy satellite (~6,000 kg) to GTO, the rocket will fly in its expendable configuration and the first-stage booster will not be recovered."
+  },
+  {
+    "flight_number": 45,
+    "launch_year": "2017",
+    "launch_date_unix": 1502728260,
+    "launch_date_utc": "2017-08-14T16:31:00Z",
+    "launch_date_local": "2017-08-14T12:31:00-04:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1039",
+            "reused": false,
+            "land_success": true,
+            "landing_type": "RTLS",
+            "landing_vehicle": "LZ-1"
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "SpaceX CRS-12",
+            "reused": false,
+            "cap_serial": "C113",
+            "customers": [
+              "NASA (CRS)"
+            ],
+            "payload_type": "Dragon 1.1",
+            "payload_mass_kg": 3310,
+            "payload_mass_lbs": 7298,
+            "orbit": "ISS",
+            "mass_returned_kg": 1724,
+            "mass_returned_lbs": 3800,
+            "flight_time_sec": 2842920,
+            "cargo_manifest": "https://www.nasa.gov/sites/default/files/atoms/files/spacex_crs-12_missionoverview.pdf"
+          }
+        ]
+      }
+    },
+    "telemetry": {
+      "flight_club": "https://www.flightclub.io/results/?code=CR12"
+    },
+    "reuse": {
+      "core": false,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": false
+    },
+    "launch_site": {
+      "site_id": "ksc_lc_39a",
+      "site_name": "KSC LC 39A",
+      "site_name_long": "Kennedy Space Center Historic Launch Complex 39A"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "http://spacexpatchlist.space/images/thumbs/spacex_f9_039_crs_12.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/6mrga2/crs12_launch_campaign_thread/",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/6tfcio/welcome_to_the_rspacex_crs12_official_launch/",
+      "reddit_recovery": null,
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/6th2nf/rspacex_crs12_media_thread_videos_images_gifs/",
+      "presskit": "http://www.spacex.com/sites/spacex/files/crs12presskit.pdf",
+      "article_link": "https://spaceflightnow.com/2017/08/17/photos-falcon-9-rocket-soars-into-space-lands-back-at-cape-canaveral/",
+      "video_link": "https://www.youtube.com/watch?v=vLxWsYx8dbo"
+    },
+    "details": "Dragon is expected to carry 2,349 kg (5,179 lb) of pressurized mass and 961 kg (2,119 lb) unpressurized. The external payload manifested for this flight is the CREAM cosmic-ray detector. First flight of the Falcon 9 Block 4 upgrade. Last flight of a newly-built Dragon capsule; further missions will use refurbished spacecraft."
+  },
+  {
+    "flight_number": 46,
+    "launch_year": "2017",
+    "launch_date_unix": 1503600600,
+    "launch_date_utc": "2017-08-24T18:50:00Z",
+    "launch_date_local": "2017-08-24T11:50:00-07:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1038",
+            "reused": false,
+            "land_success": true,
+            "landing_type": "ASDS",
+            "landing_vehicle": "JRTI"
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "FormoSat-5",
+            "reused": false,
+            "customers": [
+              "NSPO (Taiwan)"
+            ],
+            "payload_type": "Satellite",
+            "payload_mass_kg": 475,
+            "payload_mass_lbs": 1047,
+            "orbit": "SSO"
+          }
+        ]
+      }
+    },
+    "telemetry": {
+      "flight_club": "https://www.flightclub.io/results/?code=FRM5"
+    },
+    "reuse": {
+      "core": false,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": false
+    },
+    "launch_site": {
+      "site_id": "vafb_slc_4e",
+      "site_name": "VAFB SLC 4E",
+      "site_name_long": "Vandenberg Air Force Base Space Launch Complex 4E"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "http://i.imgur.com/xjtPB9z.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/6o98st",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/6vihsl/welcome_to_the_rspacex_formosat5_official_launch/",
+      "reddit_recovery": "https://www.reddit.com/r/spacex/comments/6wk653/b1038_recovery_thread/",
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/6vhwi1/rspacex_formosat5_media_thread_videos_images_gifs/",
+      "presskit": "http://www.spacex.com/sites/spacex/files/formosat5presskit.pdf",
+      "article_link": "https://en.wikipedia.org/wiki/FORMOSAT-5",
+      "video_link": "https://www.youtube.com/watch?v=J4u3ZN2g_MI"
+    },
+    "details": "Formosat-5 is an Earth observation satellite of the Taiwanese space agency. The SHERPA space tug by Spaceflight Industries was removed from the cargo manifest of this mission. The satellite has a mass of only 475 kg."
+  },
+  {
+    "flight_number": 47,
+    "launch_year": "2017",
+    "launch_date_unix": 1504792200,
+    "launch_date_utc": "2017-09-07T13:50:00Z",
+    "launch_date_local": "2017-09-07T09:50:00-04:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1040",
+            "reused": false,
+            "land_success": true,
+            "landing_type": "RTLS",
+            "landing_vehicle": "LZ-1"
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "X-37B OTV-5",
+            "reused": false,
+            "customers": [
+              "USAF"
+            ],
+            "payload_type": "Satellite",
+            "payload_mass_kg": 4990,
+            "payload_mass_lbs": 11001,
+            "orbit": "LEO"
+          }
+        ]
+      }
+    },
+    "telemetry": {
+      "flight_club": "https://www.flightclub.io/results/?code=OTV5"
+    },
+    "reuse": {
+      "core": false,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": false
+    },
+    "launch_site": {
+      "site_id": "ksc_lc_39a",
+      "site_name": "KSC LC 39A",
+      "site_name_long": "Kennedy Space Center Historic Launch Complex 39A"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "https://i.imgur.com/574MjdD.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/6u6q1t/x37b_otv5_launch_campaign_thread/",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/6ygmf1/rspacex_x37b_otv5_official_launch_discussion/",
+      "reddit_recovery": null,
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/6yih4g/rspacex_x37b_otv5_media_thread_videos_images_gifs/",
+      "presskit": "http://forum.nasaspaceflight.com/index.php?action=dlattach;topic=43585.0;attach=1446501;sess=0",
+      "article_link": "https://en.wikipedia.org/wiki/Boeing_X-37",
+      "video_link": "https://www.youtube.com/watch?v=9M6Zvi-fFv4"
+    },
+    "details": "Notable because Boeing is the primary contractor of the X-37B, which has until now been launched by ULA, a SpaceX competitor and Boeing partnership. Second flight of the Falcon 9 Block 4 upgrade."
+  },
+  {
+    "flight_number": 48,
+    "launch_year": "2017",
+    "launch_date_unix": 1507552620,
+    "launch_date_utc": "2017-10-09T12:37:00Z",
+    "launch_date_local": "2017-10-09T05:37:00-07:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1041",
+            "reused": false,
+            "land_success": true,
+            "landing_type": "ASDS",
+            "landing_vehicle": "JRTI"
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "Iridium NEXT 3",
+            "reused": false,
+            "customers": [
+              "Iridium Communications"
+            ],
+            "payload_type": "Satellite",
+            "payload_mass_kg": 8600,
+            "payload_mass_lbs": 18959,
+            "orbit": "LEO"
+          }
+        ]
+      }
+    },
+    "telemetry": {
+      "flight_club": "https://www.flightclub.io/results/?code=IRD3"
+    },
+    "reuse": {
+      "core": false,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": false
+    },
+    "launch_site": {
+      "site_id": "vafb_slc_4e",
+      "site_name": "VAFB SLC 4E",
+      "site_name_long": "Vandenberg Air Force Base Space Launch Complex 4E"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "https://i.imgur.com/falQftx.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/6ygwxw/iridium_next_constellation_mission_3_launch/",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/753e0m/iridium_next_mission_3_official_launch_discussion/",
+      "reddit_recovery": "https://www.reddit.com/r/spacex/comments/75z823/b10411_recovery_thread/",
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/755m2z/rspacex_iridium3_media_thread_videos_images_gifs/",
+      "presskit": "http://www.spacex.com/sites/spacex/files/iridium3presskit.pdf",
+      "article_link": "https://spaceflightnow.com/2017/10/09/spacex-launch-adds-another-10-satellites-to-iridium-next-fleet/",
+      "video_link": "https://www.youtube.com/watch?v=SB4N4xF2B2w&feature=youtu.be"
+    },
+    "details": "Third of eight missions to launch Iridium's second generation constellation from VAFB"
+  },
+  {
+    "flight_number": 49,
+    "launch_year": "2017",
+    "launch_date_unix": 1507762380,
+    "launch_date_utc": "2017-10-11T22:53:00Z",
+    "launch_date_local": "2017-10-11T18:53:00-04:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1031",
+            "reused": true,
+            "land_success": true,
+            "landing_type": "ASDS",
+            "landing_vehicle": "OCISLY"
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "SES-11",
+            "reused": false,
+            "customers": [
+              "SES"
+            ],
+            "payload_type": "Satellite",
+            "payload_mass_kg": 2700,
+            "payload_mass_lbs": 5952,
+            "orbit": "GTO"
+          },
+          {
+            "payload_id": "EchoStar 105",
+            "reused": false,
+            "customers": [
+              "EchoStar"
+            ],
+            "payload_type": "Satellite",
+            "payload_mass_kg": 2700,
+            "payload_mass_lbs": 5952,
+            "orbit": "GTO"
+          }
+        ]
+      }
+    },
+    "telemetry": {
+      "flight_club": "https://www.flightclub.io/results/?code=SS11"
+    },
+    "reuse": {
+      "core": true,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": false
+    },
+    "launch_site": {
+      "site_id": "ksc_lc_39a",
+      "site_name": "KSC LC 39A",
+      "site_name_long": "Kennedy Space Center Historic Launch Complex 39A"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "https://i.imgur.com/03gonKW.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/6yvn64/ses11echostar_105_launch_campaign_thread/",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/75bw7p/ses11echostar105_official_launch_discussions/",
+      "reddit_recovery": "https://www.reddit.com/r/spacex/comments/76fqz1/b10312_recovery_thread/",
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/75pgu5/rspacex_ses11_media_thread_videos_images_gifs/",
+      "presskit": "http://www.spacex.com/sites/spacex/files/echostar105ses11presskit.pdf",
+      "article_link": "https://spaceflightnow.com/2017/10/12/video-falcon-9-rocket-lifts-off-with-joint-satellite-for-ses-echostar/",
+      "video_link": "https://www.youtube.com/watch?v=iv1zeGSvhIw"
+    },
+    "details": "Nineteenth comsat to GTO, also the fourth satellite launched for SES and second for Echostar. Third time a first stage booster will be reused."
+  },
+  {
+    "flight_number": 50,
+    "launch_year": "2017",
+    "launch_date_unix": 1509392040,
+    "launch_date_utc": "2017-10-30T19:34:00Z",
+    "launch_date_local": "2017-10-30T15:34:00-04:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1042",
+            "reused": false,
+            "land_success": true,
+            "landing_type": "ASDS",
+            "landing_vehicle": "OCISLY"
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "KoreaSat 5A",
+            "reused": false,
+            "customers": [
+              "KT Corporation"
+            ],
+            "payload_type": "Satellite",
+            "payload_mass_kg": 3700,
+            "payload_mass_lbs": 8157.104,
+            "orbit": "GTO"
+          }
+        ]
+      }
+    },
+    "telemetry": {
+      "flight_club": null
+    },
+    "reuse": {
+      "core": false,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": false
+    },
+    "launch_site": {
+      "site_id": "ksc_lc_39a",
+      "site_name": "KSC LC 39A",
+      "site_name_long": "Kennedy Space Center Historic Launch Complex 39A"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "http://spacexpatchlist.space/patches/spacex_f9_044_koreasat_5a_graphic.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/73ttkd/koreasat_5a_launch_campaign_thread/",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/79iuvb/rspacex_koreasat_5a_official_launch_discussion/",
+      "reddit_recovery": null,
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/79lmdu/rspacex_koreasat5a_media_thread_videos_images/",
+      "presskit": "http://www.spacex.com/sites/spacex/files/koreasat5apresskit.pdf",
+      "article_link": "https://spaceflightnow.com/2017/10/30/spacex-launches-and-lands-third-rocket-in-three-weeks/",
+      "video_link": "https://www.youtube.com/watch?v=RUjH14vhLxA"
+    },
+    "details": "KoreaSat 5A is a Ku-band satellite capable of providing communication services from East Africa and Central Asia to southern India, Southeast Asia, the Philippines, Guam, Korea, and Japan. The satellite will be placed in GEO at 113Â° East Longitude, and will provide services ranging from broadband internet to broadcasting services and maritime communications."
+  },
+  {
+    "flight_number": 51,
+    "launch_year": "2017",
+    "launch_date_unix": 1513352160,
+    "launch_date_utc": "2017-12-15T15:36:00Z",
+    "launch_date_local": "2017-12-15T10:36:00-05:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1035",
+            "reused": true,
+            "land_success": true,
+            "landing_type": "RTLS",
+            "landing_vehicle": "LZ-1"
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "SpaceX CRS-13",
+            "cap_serial": "C108",
+            "reused": true,
+            "customers": [
+              "NASA (CRS)"
+            ],
+            "payload_type": "Dragon 1.1",
+            "payload_mass_kg": 2205,
+            "payload_mass_lbs": 4861.2,
+            "orbit": "ISS",
+            "mass_returned_kg": 1859.7,
+            "mass_returned_lbs": 4100,
+            "flight_time_sec": 2375340,
+            "cargo_manifest": "https://www.nasa.gov/sites/default/files/atoms/files/spacex_crs-13_mision_overview_low_res8.pdf"
+          }
+        ]
+      }
+    },
+    "telemetry": {
+      "flight_club": "https://www.flightclub.io/results/?code=CR13"
+    },
+    "reuse": {
+      "core": true,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": true
+    },
+    "launch_site": {
+      "site_id": "ccafs_slc_40",
+      "site_name": "CCAFS SLC 40",
+      "site_name_long": "Cape Canaveral Air Force Station Space Launch Complex 40"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "https://i.imgur.com/YxaiZqy.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/7bxg5a/crs13_launch_campaign_thread/",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/7j725w/rspacex_crs13_official_launch_discussion_updates/",
+      "reddit_recovery": null,
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/7j6oxz/rspacex_crs13_media_thread_videos_images_gifs/",
+      "presskit": "http://www.spacex.com/sites/spacex/files/crs13presskit12_11.pdf",
+      "article_link": "https://spaceflightnow.com/2017/12/15/spacexs-50th-falcon-rocket-launch-kicks-off-station-resupply-mission/",
+      "video_link": "https://www.youtube.com/watch?v=OPHbqY9LHCs"
+    },
+    "details": "Will reuse the Dragon capsule previously flown on CRS-6 and will reuse the booster from CRS-11."
+  },
+  {
+    "flight_number": 52,
+    "launch_year": "2017",
+    "launch_date_unix": 1513992443,
+    "launch_date_utc": "2017-12-23T01:27:23Z",
+    "launch_date_local": "2017-12-22T17:27:23-08:00",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "FT",
+      "first_stage": {
+        "cores": [
+          {
+            "core_serial": "B1036",
+            "reused": true,
+            "land_success": false,
+            "landing_type": null,
+            "landing_vehicle": null
+          }
+        ]
+      },
+      "second_stage": {
+        "payloads": [
+          {
+            "payload_id": "Iridium NEXT 4",
+            "reused": false,
+            "customers": [
+              "Iridium Communications"
+            ],
+            "payload_type": "Satellite",
+            "payload_mass_kg": 9600,
+            "payload_mass_lbs": 21164.38,
+            "orbit": "LEO"
+          }
+        ]
+      }
+    },
+    "telemetry": {
+      "flight_club": "https://www.flightclub.io/result?code=IRD4"
+    },
+    "reuse": {
+      "core": true,
+      "side_core1": false,
+      "side_core2": false,
+      "fairings": false,
+      "capsule": false
+    },
+    "launch_site": {
+      "site_id": "vafb_slc_4e",
+      "site_name": "VAFB SLC 4E",
+      "site_name_long": "Vandenberg Air Force Base Space Launch Complex 4E"
+    },
+    "launch_success": true,
+    "links": {
+      "mission_patch": "https://i.imgur.com/bNwARXL.png",
+      "reddit_campaign": "https://www.reddit.com/r/spacex/comments/7cgts7/iridium_next_constellation_mission_4_launch/",
+      "reddit_launch": "https://www.reddit.com/r/spacex/comments/7li8y2/rspacex_iridium_next_4_official_launch_discussion/",
+      "reddit_recovery": null,
+      "reddit_media": "https://www.reddit.com/r/spacex/comments/7litv2/rspacex_iridium4_media_thread_videos_images_gifs/",
+      "presskit": "http://www.spacex.com/sites/spacex/files/iridium4presskit.pdf",
+      "article_link": "https://spaceflightnow.com/2017/12/23/spacex-launch-dazzles-delivering-10-more-satellites-for-iridium/",
+      "video_link": "https://www.youtube.com/watch?v=wtdjCwo6d3Q"
+    },
+    "details": "Reusing the booster first used on Iridium-2, but will be flying expendable."
+  }
+]
